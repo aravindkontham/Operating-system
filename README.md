@@ -17,7 +17,7 @@ The next process in the queue is then given a time quantum to execute and the pr
 
 Fairness: The Round Robin algorithm ensures that every process gets an equal share of CPU time.<br>
 Response Time: The response time for short processes is generally low in Round Robin scheduling.<br>
-Preemptive: The Round Robin algorithm is a preemptive algorithm, which means that long-running processes can be interrupted to give other processes a chance to execute.<br>
+Preemptive: The Round Robin algorithm is a preemptive algorithm, which means that long-running processes can be interrupted to give other processes a chance to execute.
 
 
 # Disadvantages of Round Robin Algorithm:<hr>
