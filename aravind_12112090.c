@@ -60,7 +60,7 @@ float avg_qury_tym = C_tym * 1.0/n;
 printf("\n Average Query Time: \t%.2f", avg_qury_tym);
 printf("\n Average Waiting Time: \t%.2f", avg_wt);
 *res=avg_qury_tym;
-*total_tym=C_tym;
+*total_tym+=C_tym;
 }
 
 int main()
@@ -90,7 +90,8 @@ int main()
         printf("Invalid response\n:");
     printf("\n");
     printf("\n");
-    printf("Total Time spent on handling the queries is: %d minutes");
+    printf("Total Time spent on handling the queries is: %d minutes\n",t_time);
+
     printf("Total Average Query time of Ajay is:%2.f minutes\n",res1+res2);
 
     printf("Session Completed Successfully\n");
@@ -98,4 +99,3 @@ int main()
 
 
 }
-
